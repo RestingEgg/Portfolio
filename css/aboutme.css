@@ -1,0 +1,76 @@
+
+h1{
+    font-family: 'Lobster', cursive;
+}
+h2{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-weight: 400;
+}
+
+li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.first-section{
+    animation: text 1.5s 1;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.work-img{
+    padding-left: 30px;
+}
+
+.heading-abt{
+    padding-top: 40px;
+    padding-left: 20px;;
+}
+
+.footer{
+    background-color:darkseagreen;
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+.copyrights{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.first-section-skill{
+    padding-left: 20px;;
+}
+
+.row{
+    padding-top: 30px;;
+}
+
+
+@keyframes text{
+    0%{
+        color: #fff;
+        margin-bottom: -20px;
+    }
+}
+
+@keyframes wave-animation {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(20deg);
+    }
+    75% {
+      transform: rotate(-15deg);
+    }
+  }
